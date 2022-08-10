@@ -36,11 +36,11 @@ app.get('/', (req, res) => {              // "/" is the home page
   res.send("<h1>Hello World!</h1>")
 })
 
-app.get('/contact', (req, res) => {              // "/" is the home page
+app.get('/contact', (req, res) => {              // "/contact" is the contact page
     res.send("Contact me at: erskine.duenas@gmail.com!")
   })
 
-  app.get('/about', (req, res) => {              // "/" is the home page
+  app.get('/about', (req, res) => {              // "/about" is the about page
     res.send("Hi! My name is Erskine. Nice to meet you :)")
   })
 
